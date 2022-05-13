@@ -1,0 +1,5 @@
+NOME = str(input())
+SALARIO = float(input())
+TOTALVENDAS = float(input())
+BONUS = (TOTALVENDAS*0.15)
+print("TOTAL = R$ {0:.2f}".format((SALARIO + BONUS))) 
