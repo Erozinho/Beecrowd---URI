@@ -1,4 +1,4 @@
-while true:
+while True:
     try:
         N = int(input())
         EPR, EHD, INTRUSOS = 0, 0, 0
