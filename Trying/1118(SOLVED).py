@@ -16,5 +16,5 @@ while C == True:
                 if A == 2:
                     C = False
                     break
-    elif NOTA < 0 and NOTA > 10:
+    else:
         print("nota invalida")
