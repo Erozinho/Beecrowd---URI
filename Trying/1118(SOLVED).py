@@ -5,7 +5,7 @@ while C == True:
         M += NOTA
         T += 1
         if T == 2:
-            print("media = {}".format(M/ 2))
+            print("media = {:.2f}".format(M/ 2))
             T = 0
             M = 0
             while True:
