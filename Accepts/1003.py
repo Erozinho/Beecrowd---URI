@@ -1,4 +1,3 @@
-A = int(input())
-B = int(input())
+A,B = int(input()),int(input())
 SOMA = A + B
 print("SOMA =", SOMA)
