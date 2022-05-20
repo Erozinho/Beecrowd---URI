@@ -1,8 +1,4 @@
-NUM = input().split()
-A, B, C = NUM
-A = float(A)
-B = float(B)
-C = float(C)
+A, B, C = map(float,input().split())
 DEL = (B ** 2) - 4 * A * C
 if A != 0 and DEL > 0:
     X1 = (-B + DEL ** (1/2)) / (2 * A)
