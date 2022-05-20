@@ -1,7 +1,4 @@
-NUM = input().split()
-A, B = NUM
-A = int(A)
-B = int(B)
+A,B = map(int,input().split())
 if A > B:
     if A % B == 0:
         print("Sao Multiplos")
