@@ -1,22 +1,15 @@
-NUM = input().split()
-X, Y = NUM
-X = float(X)
-Y = float(Y)
-if X == 0:
-    if Y == 0:
-        print("Origem")
-    if Y != 0:
-        print("Eixo Y")
-if Y == 0:
-    if X != 0:
-        print("Eixo X")
-if X > 0:
-    if Y > 0:
-        print("Q1")
-    if Y < 0:
-        print("Q4")
-if X < 0:
-    if Y > 0:
-        print("Q2")
-    if Y < 0:
-        print("Q3")
+X,Y = map(float,input().split())
+if x == 0 and y == 0:
+    print("Origem")
+if x == 0 and y != 0:
+    print("Eixo Y")
+if x != 0 and y == 0:
+    print("Eixo X")
+if x >= 0 and y >= 0:
+    print("Q1")
+if x >= 0 and y <= 0:
+    print("Q4")
+if x <= 0 and y <= 0:
+    print("Q3")
+if x <= 0 and y >= 0:
+    print("Q2")
