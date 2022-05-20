@@ -1,5 +1,4 @@
-NUM = list(map(float,input().split()))
-A, B, C = sorted(NUM)[::-1]
+A,B,C = map(float,input().split()))
 continua = True
 if(A >= B+C):
     print("NAO FORMA TRIANGULO")
