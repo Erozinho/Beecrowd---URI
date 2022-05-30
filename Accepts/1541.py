@@ -5,4 +5,5 @@ while True:
         break
     A,B,C = x
     A, B, C = int(A), int(B), int(C)
-    print("{:.0f}".format(pow(((A*B)*100)/C, 0.5)))
+    D = pow(((A*B)*100)/C, 0.5)
+    print("{}".format(int(D)))
