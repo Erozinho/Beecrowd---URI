@@ -1,0 +1,10 @@
+A,B = 234.345,45.698
+print("{:.6f} - {:.6f}".format(A,B))
+print("{:.0f} - {:.0f}".format(A,B))
+print("{:.1f} - {:.1f}".format(A,B))
+print("{:.2f} - {:.2f}".format(A,B))
+print("{:.3f} - {:.3f}".format(A,B))
+print("{:.6e} - {:.6e}".format(A,B))
+print("{:.6E} - {:.6E}".format(A,B))
+print("{} - {}".format(A,B))
+print("{} - {}".format(A,B))
