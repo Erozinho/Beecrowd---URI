@@ -1,7 +1,4 @@
-N = int(input())
-F = 1
-TIMER = 1
-while TIMER <= N:
-    F = F * TIMER
-    TIMER = TIMER + 1
+N,F = int(input()),1
+for x in range(N):
+    F = F * (x+1)
 print("{}".format(F))
