@@ -4,6 +4,5 @@ while True:
     if(I >= 0):
         X += I
         Q += 1
-    else:
-        break
+    else:break
 print("{:.2f}".format(X/float(Q)))
