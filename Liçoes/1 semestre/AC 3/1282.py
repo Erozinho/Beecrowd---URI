@@ -1,6 +1,5 @@
 NUM_TESTE,CANAIS = int(input()),[]
-for x in range(NUM_TESTE):
-    CANAIS.append(input().split(";"))
+for x in range(NUM_TESTE):CANAIS.append(input().split(";"))
 P,C = float(input()),float(input())
 print("-----\nBÔNUS\n-----")
 for i in range(NUM_TESTE):
