@@ -1,0 +1,5 @@
+H,T,F = map(int,input().split())
+if H+T+F < 0:print(24+(H+T+F))
+elif H+T+F > 24:print((H+T+F)-24)
+elif H+T+F == 24: print(0)
+else:print(H+T+F)
